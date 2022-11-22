@@ -11,9 +11,16 @@ print("Pivot is " + str(piv))
 # first sort
 for i in list1:
 
-    if i <= piv:
+    while list1[i-1] != 2:
 
-        smaller = []
-        smaller.append[int(i)]
-        for i in range(len(list1)):
-            print(str(i))
+        if list1[i-1] <= piv:
+
+            smaller = []
+            smaller.append(list1[i-1])
+            for i in range(len(smaller)):
+                print(str(i))
+        else:
+            larger = []
+            larger.append(list1[i-1])
+            for i in range(len(larger)):
+                print(str(i))

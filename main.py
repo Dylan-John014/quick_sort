@@ -18,9 +18,10 @@ for i in list1:
             smaller = []
             smaller.append(list1[i-1])
             for i in range(len(smaller)):
-                print(str(i))
+                print(larger[i])
+
         else:
             larger = []
             larger.append(list1[i-1])
             for i in range(len(larger)):
-                print(str(i))
+                print(larger[i])
